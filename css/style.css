@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
