@@ -9,7 +9,7 @@ function ClickBtn(event) {
   loginForm.classList.add(HIDDEN_CLASSNAME);
   const userName = loginInput.value;
   localStorage.setItem(USERNAME_KEY, userName);
-  printedgreeting(USERNAME_KEY);
+  printedgreeting(userName);
 }
 
 loginForm.addEventListener("submit", ClickBtn);

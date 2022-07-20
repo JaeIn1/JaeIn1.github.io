@@ -6,8 +6,31 @@ body {
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-img {
-  height: 100%;
-  width: 100%;
+#clock {
+  color: white;
+  font-size: 90px;
+  margin-bottom: 0px;
+}
+#greeting {
+  color: white;
+  font-size: 20px;
+}
+#weather {
+  position: fixed;
+  right: 30px;
+  top: 20px;
+}
+#inputToDo {
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: none;
+  background: none;
+}
+#inputToDo::placeholder {
+  color: white;
 }
